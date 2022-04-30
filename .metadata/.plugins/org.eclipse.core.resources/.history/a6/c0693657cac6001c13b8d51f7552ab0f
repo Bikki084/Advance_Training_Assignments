@@ -1,0 +1,30 @@
+package com.problem_1.problem_statement_1_2;
+
+import java.util.Scanner;
+
+class Rectangle {
+    int length; 
+    int breadth; 
+    int area; 
+    int perimeter;
+
+    void input() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter length of rectangle: ");
+        length = sc.nextInt();
+        System.out.print("Enter breadth of rectangle: ");
+        breadth = sc.nextInt();
+    }
+
+    void calculate() {
+        area = length * breadth;
+        perimeter = 2 * (length + breadth);
+    }
+
+    void display() {
+        System.out.println("Area of Rectangle = " + area);
+        System.out.println("Perimeter of Rectangle = " + perimeter);
+    }
+   
+
+}

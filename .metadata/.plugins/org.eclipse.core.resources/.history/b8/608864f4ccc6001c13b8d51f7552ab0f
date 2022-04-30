@@ -1,0 +1,19 @@
+package com.problem_1.problem_statement_1_2;
+
+public class Rectangle{
+	private double length;
+	private double breadth;
+	
+	public Rectangle() {
+		int length=0;
+		int breadth=0;
+	}
+	
+	public Rectangle(double length, double breadth) {
+		this.length=length;
+		this.breadth=breadth;
+		
+	}
+	
+	
+}

@@ -1,0 +1,8 @@
+package com.problem_1.problem_statement_1_2;
+
+public class Rectangle{
+	private double length;
+	private double breadth;
+	
+	public Rectangle()
+}

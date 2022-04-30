@@ -1,0 +1,21 @@
+package com.problem_2.problem_statement_2_1;
+
+import java.util.Scanner;
+
+public class SumTwo {
+
+    public static void main(String[] args) {
+
+    	Scanner sc= new Scanner(System.in); 
+    	int num1 = sc.nextInt();  
+    	int num2 =num1 sc.nextInt()
+        for (int i = 0; i <= 12; ++i)
+        {
+            System.out.print(num1+" ");
+
+            int sumOfPrevTwo = num1 + num2;
+            num1 = num2;
+            num2 = sumOfPrevTwo;
+        }
+    }
+}
