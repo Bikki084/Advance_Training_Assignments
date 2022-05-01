@@ -45,7 +45,7 @@ public class BankAccount {
 				if (amt < balance) {
 					System.out.println(amt + " is credited from your account.");
 					balance -= amt;
-					System.out.println("Your current balance is " + balance);
+					System.out.println("Your current balance is: " + balance);
 				} else
 					System.out.println(
 							"Tranaction Cannot proceed ! Amount you entered is more than Your Current Balance");

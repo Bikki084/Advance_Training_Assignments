@@ -8,14 +8,14 @@ public class TestBank {
     
 //    details for Saving account
     try {
-      b1 = new BankAccount(1221, "Bhushan More", "Savings", 1200);
+      b1 = new BankAccount(1221, "Bikki Shaw", "Savings", 1200);
     } catch (NegativeBalanceException | LowBalanceException e) {
       e.printStackTrace();
     }
     
 //    details for Current Account
     try {
-      b2 = new BankAccount(1331, "Bhushan More", "Current", 7000);
+      b2 = new BankAccount(1331, "Bikki Shaw", "Current", 7000);
     } catch (NegativeBalanceException | LowBalanceException e) {
       e.printStackTrace();
     }

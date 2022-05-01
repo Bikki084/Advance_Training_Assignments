@@ -53,11 +53,8 @@ class InstrumentMain
 		for (int iLoop = 0; iLoop < 10; iLoop++)
 
 		{
-
 			switch (iLoop % 3)
-
 			{
-
 			case 0: {
 				A[iLoop] = new Piano();
 				break;
