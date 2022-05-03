@@ -22,7 +22,8 @@ INSERT INTO books(Book_Name,Auther,Price) VALUES('SQL:The Complete Reference','J
 
 
 
-INSERT INTO users(first_name,address,email,user_name,password,registration_date) VALUES('Amit','Wagholi','amit.mishra369@gmail.com','9673960407','mona9Dutta',date('2016-11-08'))
+INSERT INTO users(first_name,address,email,user_name,password,registration_date) 
+VALUES('Amit','Wagholi','amit.mishra369@gmail.com','9673960407','mona9Dutta',date('2016-11-08'));
 
 INSERT INTO users(first_name,address,email,user_name,password,registration_date) 
 VALUES('Hari','Chandan Nagar','hari39@rediffmail.com','7845127421','Adam99@',date('2016-11-08'));
@@ -30,7 +31,8 @@ VALUES('Hari','Chandan Nagar','hari39@rediffmail.com','7845127421','Adam99@',dat
 INSERT INTO users(first_name,address,email,user_name,password,registration_date) 
 VALUES('Monalisa','Rakshak Nagar','mona9@gmail.com','9878454503','pinaki9@',date('2016-11-08'));
 
-INSERT INTO users(first_name,address,email,user_name,password,registration_date) VALUES('Narendra','Rajpath','narendra17@pmo.nic.in','8877990011','Delhi9%',date('2016-11-08'));
+INSERT INTO users(first_name,address,email,user_name,password,registration_date) 
+VALUES('Narendra','Rajpath','narendra17@pmo.nic.in','8877990011','Delhi9%',date('2016-11-08'));
 
 INSERT INTO users(first_name,address,email,user_name,password,registration_date) 
 VALUES('Kavita','Rakshak Nagar Gold','kavi23@gmail.com','9878521402','Alia8&',date('2016-11-08'));
